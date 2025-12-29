@@ -95,3 +95,7 @@ A computed indicator (not stored) to estimate if a response is still likely:
 
 ## License
 MIT
+
+## Contributing
+See `CONTRIBUTING.md` for commit conventions and branching guidelines.
+
