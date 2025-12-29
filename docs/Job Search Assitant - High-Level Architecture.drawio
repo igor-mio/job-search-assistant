@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0" version="29.2.9">
+  <diagram name="Page-1" id="jPI6pn1pMcMsl7p-N6SB">
+    <mxGraphModel dx="1876" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jsGndJ3b8PelyNBj4acF-3" edge="1" parent="1" source="jsGndJ3b8PelyNBj4acF-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="jsGndJ3b8PelyNBj4acF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jsGndJ3b8PelyNBj4acF-7" edge="1" parent="1" source="jsGndJ3b8PelyNBj4acF-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="jsGndJ3b8PelyNBj4acF-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jsGndJ3b8PelyNBj4acF-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;User&lt;/div&gt;&lt;div&gt;(Desktop / Iphone)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jsGndJ3b8PelyNBj4acF-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="&lt;div&gt;Auth0&lt;/div&gt;&lt;div&gt;JWT / Roles&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="440" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jsGndJ3b8PelyNBj4acF-10" edge="1" parent="1" source="jsGndJ3b8PelyNBj4acF-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="jsGndJ3b8PelyNBj4acF-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jsGndJ3b8PelyNBj4acF-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="&lt;div&gt;Angular PWA&lt;/div&gt;&lt;div&gt;Azure Static Web Apps (Free)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="200" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="jsGndJ3b8PelyNBj4acF-13" edge="1" parent="1" source="jsGndJ3b8PelyNBj4acF-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="jsGndJ3b8PelyNBj4acF-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jsGndJ3b8PelyNBj4acF-14" edge="1" parent="1" source="jsGndJ3b8PelyNBj4acF-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="jsGndJ3b8PelyNBj4acF-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jsGndJ3b8PelyNBj4acF-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="&lt;div&gt;Azure Functions (.NET)&lt;/div&gt;&lt;div&gt;Consumption Plan&lt;/div&gt;&lt;div&gt;- JWT validation&lt;/div&gt;&lt;div&gt;-RBAC&lt;/div&gt;&lt;div&gt;-Business Logic&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="200" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="jsGndJ3b8PelyNBj4acF-16" edge="1" parent="1" source="jsGndJ3b8PelyNBj4acF-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jsGndJ3b8PelyNBj4acF-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jsGndJ3b8PelyNBj4acF-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="&lt;div&gt;Azure SQL&lt;/div&gt;&lt;div&gt;Serverless Free&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="40" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="jsGndJ3b8PelyNBj4acF-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" value="&lt;div&gt;Azure Blob Storage&lt;/div&gt;&lt;div&gt;Private container&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="360" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="jsGndJ3b8PelyNBj4acF-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Application insights&lt;/div&gt;&lt;div&gt;Logs / Telemetry&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="40" y="720" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

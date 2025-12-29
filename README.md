@@ -46,6 +46,10 @@ Job searching quickly becomes hard to manage with spreadsheets and scattered ema
 
 > Architecture diagram: see `/docs` (added in EPIC 0.3).
 
+## Diagrams
+- `architecture.png` — High-level Azure architecture (PWA + Functions + SQL + Blob + Auth0)
+
+
 ## Roles & authorization
 - **USER**: can access only resources where `ownerAuth0UserId == token.sub`
 - **SUPER_ADMIN**: can access all resources
