@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JobSearchAssistant.Api", "JobSearchAssistant.Api", "{2EE84890-0C30-1E89-C0DD-8DCA7F7C5744}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobSearchAssistant_Api", "JobSearchAssistant.Api\JobSearchAssistant_Api.csproj", "{C46F4771-C6C3-3C90-7895-DA21E1B05AE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "obj", "obj", "{C1316939-0E7B-211B-A25F-31AC2DBAA54A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debug", "Debug", "{980D609A-AFE4-D035-E0CD-133CD2AA03A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net8.0", "net8.0", "{8A80A609-7521-2812-A753-A0192BB78A0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerExtensions", "JobSearchAssistant.Api\obj\Debug\net8.0\WorkerExtensions\WorkerExtensions.csproj", "{8B45D86E-2B1C-7B07-6273-81A78C981EF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C46F4771-C6C3-3C90-7895-DA21E1B05AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C46F4771-C6C3-3C90-7895-DA21E1B05AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C46F4771-C6C3-3C90-7895-DA21E1B05AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C46F4771-C6C3-3C90-7895-DA21E1B05AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B45D86E-2B1C-7B07-6273-81A78C981EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B45D86E-2B1C-7B07-6273-81A78C981EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B45D86E-2B1C-7B07-6273-81A78C981EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B45D86E-2B1C-7B07-6273-81A78C981EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C46F4771-C6C3-3C90-7895-DA21E1B05AE1} = {2EE84890-0C30-1E89-C0DD-8DCA7F7C5744}
+		{C1316939-0E7B-211B-A25F-31AC2DBAA54A} = {2EE84890-0C30-1E89-C0DD-8DCA7F7C5744}
+		{980D609A-AFE4-D035-E0CD-133CD2AA03A6} = {C1316939-0E7B-211B-A25F-31AC2DBAA54A}
+		{8A80A609-7521-2812-A753-A0192BB78A0C} = {980D609A-AFE4-D035-E0CD-133CD2AA03A6}
+		{8B45D86E-2B1C-7B07-6273-81A78C981EF2} = {8A80A609-7521-2812-A753-A0192BB78A0C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BB66EE5-F3D2-40A8-96B2-B03618B454B7}
+	EndGlobalSection
+EndGlobal
